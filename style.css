@@ -32,6 +32,8 @@ h2, h4, p {
 }
 
 #bottom-section {
+	display: flex;
+	flex-direction: column;
   width: 100%;
   height: 55%;
   color: white;
@@ -127,12 +129,15 @@ button:hover {
 }
 
 
-@media (min-width: 640px) {
+@media (min-width: 615px) {
   #card{
     width: 600px;
   	height: 400px;
   }
-  #bottom-right, #bottom-left {
+	#bottom-section {
+		flex-direction: row;
+	}
+	#bottom-right, #bottom-left {
     width: 50%;
   }
 }
