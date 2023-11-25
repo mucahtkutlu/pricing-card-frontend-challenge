@@ -132,7 +132,7 @@ button:hover {
     width: 600px;
   	height: 400px;
   }
-	#bottom-right, #bottom-left {
+  #bottom-right, #bottom-left {
     width: 50%;
   }
 }
